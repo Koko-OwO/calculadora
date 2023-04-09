@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lightcyan;
+ 
+}
+@font-face {
+    font-family: pixel;
+    src: url(../assets/pixel.TTF);
+}
+@font-face {
+    font-family: h4;
+    src: url(../assets/h4.ttf);
+}
+#valorFinal {
+  font-size: 200%;
+}
+.ola  {
+    width: 70%;
+    background-color: blanchedalmond;
+}
+h2 {
+    font-family: pixel;
+}
+.limbo {
+    height: 50rem;
+
+}
+h4 {
+    font-family: h4;
+}
+
+input::placeholder {
+    
+    font-family: h4;
+    text-align: center;
+    display: flex;
+   
+   
+}
+input {
+    height: 3rem;
+    font-family: h4;
+ 
+    
+}
+.botn {
+    font-family: h4;
+    font-size: 70%;
+}
